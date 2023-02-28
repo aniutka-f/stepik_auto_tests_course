@@ -1,9 +1,6 @@
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-import math
-from selenium.webdriver.support.ui import Select
 
 link = "http://suninjuly.github.io/math.html"
 
@@ -24,4 +21,3 @@ finally:
     time.sleep(3)
     browser.quit()
 
-#jll
