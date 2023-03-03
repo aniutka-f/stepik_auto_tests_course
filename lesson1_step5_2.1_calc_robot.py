@@ -13,8 +13,6 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-
-
     x = browser.find_element(By.ID, "input_value").text
     y = calc(x)
 
