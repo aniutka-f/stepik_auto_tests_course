@@ -20,7 +20,7 @@ try:
 
     input4 = browser.find_element(By.CSS_SELECTOR, "[type='file']" )
     current_dir = os.path.abspath(os.path.dirname(__file__))
-    file_path = os.path.join(current_dir, 'lesson.txt')
+    file_path = os.path.join(current_dir, '../lesson.txt')
     input4.send_keys(file_path)
     
     button = browser.find_element(By.CSS_SELECTOR, "[type='submit']")
